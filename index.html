@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>The HTML5 Herald</title>
+    <meta name="description" content="" />
+    <meta name="author" content="SitePoint" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=1.0" />
+  </head>
+
+  <body>
+    <div id="bound-one" class="scroll-bound">
+      <div class="content">
+        <div class="video-content">
+          <h1>icebreaker.</h1>
+          <p>Animation proof of concept for new t-shirt campaign.</p>
+        </div>
+        <video width="600" muted preload>
+          <source src="iphone.mp4" type="video/mp4">
+          <!-- <source src="tabi_clothing.mp4" type="video/mp4"> -->
+          <p>Your user agent does not support the HTML5 Video element.</p>
+        </video>
+      </div>
+    </div>
+    
+    <section class="grey">
+      <div id="trigger"></div>
+      <div id="animate2" class="box boxa black"></div>
+      <div id="animate3" class="box boxb black"></div>
+      <div id="animate6" class="box box6 black"></div>
+      <div class="light">
+        <h1>Featherweight.</h1>
+      </div>
+    </section>
+    <section style="background: white; position: relative; z-index: 1">
+      <div id="trigger1"></div>
+      <div id="animate4" class="box boxc black"></div>
+      <!-- <div id="animate5" class="box boxd black">Animate 5</div> -->
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
