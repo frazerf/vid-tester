@@ -134,5 +134,10 @@ section.grey {
 
 .scroll-bound .video-content {
   position: absolute;
+  color: white;
+}
+
+.top {
   top: 110px;
+  color: black !important;
 }
